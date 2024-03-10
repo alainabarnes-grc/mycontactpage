@@ -69,20 +69,19 @@ html, body {
 }
 
 .center {
-   /* added responsiveness*/
+/* added responsiveness*/
 	width: 40%;
 	min-width: 300px;
 	padding: 2%;
     margin: 100px auto;
 	background:rgba(182, 64, 64, 0.75);
+	border-radius: 50% / 10%; /* added rounded edges*/
 	background;
 	text-align: center;
-  border: none;
+  	border: none;
 /* removed border*/
- 	
 }
-
-   
+ 	
 #logo {
     margin-bottom: 16px;
 	margin-top: 50px;
