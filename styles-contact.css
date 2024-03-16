@@ -57,9 +57,9 @@ table {
 
 html, body {
   height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  min-width: 300px;
+  padding: 2%;
+  margin: 30px auto;
   background-image: url("images/paint_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -184,5 +184,3 @@ a:hover{
 .nav-link-ltr:hover::before {
 	width: 100%
 } 
-    
-
